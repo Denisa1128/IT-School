@@ -8,7 +8,10 @@ public class LogicalComplementAndNegotiationOperators {
         System.out.println(" Updated value: " + !isFirstTime);
 
         System.out.println("Default value: is Registered " + isRegistered);
-        System.out.println(" Updated value: " + isRegistered );
+        System.out.println(" Updated value: " + !isRegistered );
+
+        System.out.println("Default value: isRegistered " + isRegistered);
+        System.out.println("Update value:"+ !isRegistered);
 
     }
 }

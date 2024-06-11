@@ -9,7 +9,7 @@ public class ArithmeticOperations {
         int secondNumber =2;
 
         int sum = firstNumber + secondNumber;
-        int difference = firstNumber - sum;
+        int difference = firstNumber - secondNumber;
         int product = firstNumber * secondNumber;
         int divison = firstNumber / secondNumber;
         int reminder = firstNumber % secondNumber;
