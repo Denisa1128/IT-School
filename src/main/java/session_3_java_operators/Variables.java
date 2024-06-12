@@ -8,7 +8,7 @@ public class Variables {
         int value = 10; // dec & init
 
         int outerVariable = 100;
-        if (outerVariable > 20 ){
+        if (outerVariable > 50 ){
             int innerVariable = 200;
             System.out.println(innerVariable + outerVariable);
         }

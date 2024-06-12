@@ -16,12 +16,9 @@ public class NumericPromotion {
         System.out.println(" MinLongValue: "+ minLongValue);
         System.out.println(" Max integer value :" +maxIntValue);
 
-
-
         long testLongValue = 12545445454545454L;
         // max int 4545454545
         // max long: 545545454545445444
-
         int newIntValue = (int)testLongValue;
         System.out.println(" Test long value :"+ testLongValue);
         System.out.println("New Int value:" +newIntValue);
