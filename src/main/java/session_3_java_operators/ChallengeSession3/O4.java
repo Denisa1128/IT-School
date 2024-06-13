@@ -1,4 +1,4 @@
-package ChallengeSession3;
+package session_3_java_operators.ChallengeSession3;
 
 public class O4 {
     public static void main(String[] args) {
