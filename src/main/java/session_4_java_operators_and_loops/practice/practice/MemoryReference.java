@@ -25,6 +25,7 @@ public class MemoryReference {
 class User {
 
     String firstName;
+    static String lastname;
 
     public User(String firstName) {
         this.firstName = firstName;
