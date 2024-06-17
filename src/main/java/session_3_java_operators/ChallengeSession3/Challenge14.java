@@ -2,7 +2,7 @@ package session_3_java_operators.ChallengeSession3;
 
 import java.util.Scanner;
 
-public class O14 {
+public class Challenge14 {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
         System.out.println("Enter  number between 1-100 ");

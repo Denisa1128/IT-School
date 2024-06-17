@@ -1,6 +1,6 @@
 package session_3_java_operators.ChallengeSession3;
 
-public class O12 {
+public class Challenge12 {
 
 
 public static void main(String[] args) {

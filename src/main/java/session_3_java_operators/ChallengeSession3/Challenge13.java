@@ -1,6 +1,6 @@
 package session_3_java_operators.ChallengeSession3;
 
-public class O13 {
+public class Challenge13 {
     public static void main(String[] args) {
         int price = 100;
         int discount = 25;

@@ -2,7 +2,7 @@ package session_3_java_operators.ChallengeSession3;
 
 import java.util.Scanner;
 
-public class O11 {
+public class Challenge11 {
     public static void main(String[] args) {
 
 

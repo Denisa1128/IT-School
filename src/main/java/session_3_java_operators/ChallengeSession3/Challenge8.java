@@ -1,6 +1,6 @@
 package session_3_java_operators.ChallengeSession3;
 
-public class O8 {
+public class Challenge8 {
     public static void main(String[] args) {
         byte num1 = 20;
         byte num2 = 10;
