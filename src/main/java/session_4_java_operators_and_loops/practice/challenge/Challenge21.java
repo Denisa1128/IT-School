@@ -2,8 +2,10 @@ package session_4_java_operators_and_loops.practice.challenge;
 
 import java.util.Scanner;
 
-public class challenge21 {
+public class Challenge21 {
+
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the student's score: ");
@@ -15,7 +17,6 @@ public class challenge21 {
                                 (score >= 60 && score < 70) ? "D" :
                                 (score >= 0 && score < 60) ? "F" :
                                                 "Invalid score";
-
 
         System.out.println("The grade for the score " + score + " is: " + grade);
     }
