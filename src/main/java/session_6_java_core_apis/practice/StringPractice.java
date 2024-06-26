@@ -48,4 +48,4 @@ public class StringPractice {
             System.out.println(value1.concat(value2));
         }
     }
-}
+
