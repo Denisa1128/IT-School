@@ -2,9 +2,6 @@ package session_6_java_core_apis.practice;
 
 public class StringPractice {
 
-
-    public class StringPractice {
-
         public static void main(String[] args) {
 //        stringConcat();
 //        System.out.println(getStringLength("Alice"));
