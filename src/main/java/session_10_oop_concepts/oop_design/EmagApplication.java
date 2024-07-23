@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmagApplication {
+
     public static void main(String[] args) {
 
         List< Laptop> laptops = new ArrayList<>();
@@ -24,15 +25,16 @@ public class EmagApplication {
         laptops.add(laptop2);
         laptops.add(laptop3);
 
-        List<Laptop> resultLaptopList = getFilteredLaptopsByPrice(laptops, 0,800){
-            printLaptops(resultLaptopList);
-        }
+        List<Laptop> resultLaptopList = getFilteredLaptopsByPrice(laptops, 0, 800);
+        printLaptops(resultLaptopList);
+
 
     }
-    public static List<Laptop> getFilteredLaptopsByPrice(List<Laptop> laptopList, double minPrice, double maxPrice){
-
+    public static List<Laptop> getFilteredLaptopsByPrice(List<Laptop> laptopList, double minPrice, double maxPrice) {
         List<Laptop>filteredDevices = new ArrayList<>();
-        for (Laptop laptop : laptopList){
+
+        for (Laptop laptop : laptopList) {
+
             if (laptop.getPrice() >= minPrice && laptop.getPrice() <= maxPrice){
                 filteredDevices.add(laptop);
             }
