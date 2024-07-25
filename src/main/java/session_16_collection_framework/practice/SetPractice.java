@@ -17,7 +17,6 @@ public class SetPractice {
         products2.add("P501");
 
         displayProducts(mergeProducts(products, products2));
-
     }
 
     public static Set<String> mergeProducts(Set<String> firstSet, Set<String> secondSet) {
@@ -31,7 +30,6 @@ public class SetPractice {
         for (String product : products) {
             System.out.println(product);
         }
-
     }
 
     public static Set<String> initializeSet() {

@@ -9,20 +9,18 @@ public class MapPractice {
         Map<String,Integer> students = initializeMap();
 
         int result = retrieveValue(students,"Alice");
-        System.out.println(" Alice's age is" + result);
+        System.out.println(" Alice's age is " + result);
 
         updateMap(students, "Bob", 20);
 
       for (Map.Entry<String,Integer>entry: students.entrySet()){
-          System.out.println("Student's name is: " + entry.getKey());
-          System.out.println("Student's age is: " + entry.getValue());
+          System.out.println(" Student's name is: " + entry.getKey());
+          System.out.println(" Student's age is: " + entry.getValue());
       }
 
     }
     public static void updateMap(Map<String, Integer> map, String key, int value) {
         map.put(key, value);
-
-
     }
 
     public static int retrieveValue(Map<String,Integer> map, String key) {
@@ -31,9 +29,9 @@ public class MapPractice {
 
     public static Map<String,Integer> initializeMap() {
         Map<String,Integer> students = new HashMap<>();
-        students.put(" Alice", 21);
-        students.put("John" , 23);
-        students.put(" Bob" , 24);
+        students.put(" Alice ", 21);
+        students.put(" John " , 23);
+        students.put(" Bob " , 24);
 
         return students;
 
