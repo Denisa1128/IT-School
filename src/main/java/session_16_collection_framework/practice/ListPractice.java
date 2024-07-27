@@ -8,20 +8,24 @@ public class ListPractice {
     public static void main(String[] args) {
         List<Integer> myList = initializeList();
 
-        List<Integer> updatedList = updateList(myList, 3 , 7 );
+        List<Integer> updatedList = updateList(myList, 3, 7);
         //System.out.println(updatedList);
 
         boolean isElementPresent = isElementPresent(myList, 3);
         System.out.println("Is my element present?" + isElementPresent);
 
     }
+
     public static boolean isElementPresent(List<Integer> list, int value) {
         // int value => Integer value
         return list.contains(value);
 
     }
-    public static List<Integer> updateList(List<Integer> list,int index, int value) {
-        if(index < 0 || index > list.size()) {
+
+
+    public static List<Integer> updateList(List<Integer> list, int index, int value) {
+        if (index < 0 || index > list.size()) {
+
             System.out.println("Invalid index");
             return list;
         }
@@ -29,12 +33,13 @@ public class ListPractice {
         result.set(index, value);
 
         return result;
-
     }
-    public static List<Integer> initializeList(){
+
+    public static List<Integer> initializeList() {
         List<Integer> list = new ArrayList<>();
 
-        for (int index = 0; index < 10; index++){
+
+        for (int index = 0; index < 10; index++) {
             list.add(index);
         }
         return list;
