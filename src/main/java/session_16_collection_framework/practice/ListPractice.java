@@ -12,7 +12,7 @@ public class ListPractice {
         //System.out.println(updatedList);
 
         boolean isElementPresent = isElementPresent(myList, 3);
-        System.out.println("Is my element present? " + isElementPresent);
+        System.out.println("Is my element present?" + isElementPresent);
 
     }
 
@@ -22,8 +22,10 @@ public class ListPractice {
 
     }
 
+
     public static List<Integer> updateList(List<Integer> list, int index, int value) {
         if (index < 0 || index > list.size()) {
+
             System.out.println("Invalid index");
             return list;
         }
@@ -35,6 +37,7 @@ public class ListPractice {
 
     public static List<Integer> initializeList() {
         List<Integer> list = new ArrayList<>();
+
 
         for (int index = 0; index < 10; index++) {
             list.add(index);

@@ -17,7 +17,6 @@ public class MapPractice {
             System.out.println("Student's name is: " + entry.getKey());
             System.out.println("Student's age is: " + entry.getValue());
         }
-
     }
 
     public static void updateMap(Map<String, Integer> map, String key, int value) {
@@ -29,11 +28,13 @@ public class MapPractice {
         return map.get(key);
     }
 
+
     public static Map<String, Integer> initializeMap() {
         Map<String, Integer> students = new HashMap<>();
         students.put(" Alice", 21);
         students.put("John", 23);
         students.put(" Bob", 24);
+
 
         return students;
 
